@@ -1,0 +1,7 @@
+#TBB_kwikemarks {
+    list-style-image: url("chrome://kwikemarks/skin/kwikemarks-icon-16x16.png");
+}
+
+[iconsize="small"] #TBB_kwikemarks {
+    list-style-image: url("chrome://kwikemarks/skin/kwikemarks-icon-16x16.png");
+}

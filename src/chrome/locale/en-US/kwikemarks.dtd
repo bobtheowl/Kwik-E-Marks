@@ -1,0 +1,15 @@
+<!ENTITY kwikemarks.name         "Kwik-E-Marks">
+<!ENTITY kwikemarks.menulabel    "Open Kwik-E-Marks">
+<!ENTITY kwikemarks.buttonlabel  "Kwik-E-Marks">
+<!ENTITY kwikemarks.description  "Show bookmarks in a new tab">
+<!ENTITY kwikemarks.version      "0.2.0">
+<!ENTITY kwikemarks.antemeridiem "AM">
+<!ENTITY kwikemarks.postmeridiem "PM">
+<!ENTITY kwikemarks.directories  "Directories">
+<!ENTITY kwikemarks.options      "Options">
+<!ENTITY kwikemarks.bgcolortitle "Background Color">
+<!ENTITY kwikemarks.bgcolordesc  "The background color of the Kwik-E-Marks page.">
+<!ENTITY kwikemarks.defdirtitle  "Default Directory">
+<!ENTITY kwikemarks.defdirdesc   "The ID of the default directory which is shown when Kwik-E-Marks is opened.">
+<!ENTITY kwikemarks.lastdirtitle "Last Viewed Directory">
+<!ENTITY kwikemarks.lastdirdesc  "The ID of the last directory viewed in Kwik-E-Marks.">
