@@ -1,0 +1,86 @@
+/* Global styles for Kwik-E-Marks */
+
+html, body, .container-fluid.base-layout, .base-layout > .row {
+    height:100%;
+}
+
+.layout-column {
+    height:100%;
+    max-height:100%;
+    overflow:hidden;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+.layout-column > .panel.panel-default {
+    height:100%;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+
+/* Directory table */
+
+#kwikemarks-directory-table ul {
+    padding-left:0;
+}
+#kwikemarks-directory-table li {
+    border-left:1px dotted #999;
+    list-style-type:none;
+    margin-left:.5em;
+    padding-left:.5em;
+}
+
+/* Bookmarks panel */
+
+.kwikemarks-bookmark-container a,
+.kwikemarks-bookmark-container a:link,
+.kwikemarks-bookmark-container a:visited {
+    display:block;
+    background-color:#f5f5f5;
+    color:#333;
+    border:1px solid #ddd;
+    border-radius:4px;
+    box-shadow:0 1px 1px rgba(0,0,0,0.5);
+    padding:4px 8px;
+    margin-bottom:15px;
+    text-decoration:none;
+    line-height:22px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    transition:border-color 0.15s, background-color 0.15s, color 0.15s;
+}
+.kwikemarks-bookmark-container a:hover,
+.kwikemarks-bookmark-container a:active {
+    text-decoration:none;
+    background-color:#5bc0de;
+    border-color:#46b8da;
+    color:#fff;
+}
+.kwikemarks-bookmark-container a img {
+    display:inline-block;
+    height:16px;
+    margin-right:8px;
+}
+
+/* Generic styles */
+
+.no-margin {
+    margin:0 !important;
+}
+.no-left-padding {
+    padding-left:0 !important;
+}
+.no-right-padding {
+    padding-right:0 !important;
+}
+
+table.row-pointers tbody tr {
+    cursor:pointer;
+}
+
+ul {
+    margin-bottom:0;
+}
+
+/* End chrome://kwikemarks/content/css/kwikemarks.css */
