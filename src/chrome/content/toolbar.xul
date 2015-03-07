@@ -4,30 +4,30 @@
 <!DOCTYPE overlay SYSTEM "chrome://kwikemarks/locale/kwikemarks.dtd">
 
 <overlay id="kwikemarks-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-  <script type="application/x-javascript" src="kwikemarks-overlay.js"/>
-  <menupopup id="bookmarksMenuPopup">
-    <menuitem id="menu_kwikemarks"
-              label="&kwikemarks.menulabel;"
-              class="menuitem-iconic"
-              image="chrome://kwikemarks/skin/kwikemarks-icon-16x16.png"
-              insertbefore="organizeBookmarksSeparator"
-              onclick="kwikemarks_extension_functions.open();"/>
-  </menupopup>
-  <menupopup id="BMB_bookmarksPopup">
-    <menuitem id="BMB_kwikemarks"
-              label="&kwikemarks.menulabel;"
-              class="menuitem-iconic"
-              image="chrome://kwikemarks/skin/kwikemarks-icon-16x16.png"
-              insertafter="BMB_bookmarksShowAll"
-              onclick="kwikemarks_extension_functions.open();"/>
-  </menupopup>
-  <toolbarpalette id="BrowserToolbarPalette">
-    <toolbarbutton id="TBB_kwikemarks"
-                   class="toolbarbutton-1 chromeclass-toolbar-additional"
-                   label="&kwikemarks.buttonlabel;"
-                   tooltiptext="&kwikemarks.description;"
-                   image="chrome://kwikemarks/skin/kwikemarks-icon-16x16.png"
-                   oncommand="kwikemarks_extension_functions.open();">
-    </toolbarbutton>
-  </toolbarpalette>
+    <script type="application/x-javascript" src="kwikemarks-overlay.js"/>
+    <menupopup id="bookmarksMenuPopup">
+        <menuitem id="menu_kwikemarks"
+                  label="&kwikemarks.menulabel;"
+                  class="menuitem-iconic"
+                  image="chrome://kwikemarks/skin/kwikemarks-icon-16x16.png"
+                  insertbefore="organizeBookmarksSeparator"
+                  onclick="kwikemarks_extension_functions.open();"/>
+    </menupopup>
+    <menupopup id="BMB_bookmarksPopup">
+        <menuitem id="BMB_kwikemarks"
+                  label="&kwikemarks.menulabel;"
+                  class="menuitem-iconic"
+                  image="chrome://kwikemarks/skin/kwikemarks-icon-16x16.png"
+                  insertafter="BMB_bookmarksShowAll"
+                  onclick="kwikemarks_extension_functions.open();"/>
+    </menupopup>
+    <toolbarpalette id="BrowserToolbarPalette">
+        <toolbarbutton id="TBB_kwikemarks"
+                       class="toolbarbutton-1 chromeclass-toolbar-additional"
+                       label="&kwikemarks.buttonlabel;"
+                       tooltiptext="&kwikemarks.description;"
+                       image="chrome://kwikemarks/skin/kwikemarks-icon-16x16.png"
+                       oncommand="kwikemarks_extension_functions.open();">
+        </toolbarbutton>
+    </toolbarpalette>
 </overlay>
