@@ -4,7 +4,7 @@
   <title>Kwik-E-Marks</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
   <link rel="stylesheet" type="text/css" media="screen" href="chrome://kwikemarks/content/css/bootstrap.min.css" />
   <link rel="stylesheet" type="text/css" media="screen" href="chrome://kwikemarks/content/css/bootstrap-xl.css" />
   <link rel="stylesheet" type="text/css" media="screen" href="chrome://kwikemarks/content/css/kwikemarks.css" />
@@ -19,7 +19,7 @@
               <div class="form-group has-feedback no-margin">
                 <input type="text" class="form-control" id="kwikemarks-directory-search" placeholder="Search Directories" />
                 <span class="glyphicon glyphicon-search form-control-feedback" aria-hidden="true"></span>
-              </div><!-- /.form-group.has-feedback.no-margin -->
+              </div>
             </form>
           </div><!-- /.panel-heading -->
           <table class="table table-hover table-striped table-responsive row-pointers" id="kwikemarks-directory-table">
@@ -27,7 +27,7 @@
           </table>
         </div><!-- /.panel.panel-default -->
       </div><!-- /.col-xs-3.col-xl-2.no-float.layout-column -->
-      <div class="col-xs-9 col-xl-10 no-float layout-column">
+      <div class="col-xs-9 col-xl-10 no-float layout-column no-left-padding">
         <div class="panel panel-default">
           <div class="panel-heading clearfix">
             <div class="pull-left">
@@ -46,16 +46,16 @@
             <div class="container-fluid">
               <div class="row" id="kwikemarks-bookmarks-panel"></div>
             </div><!-- /.container-fluid -->
-          </div><!-- /.panel-body.no-right-padding -->
+          </div><!-- /.panel-body -->
         </div><!-- /.panel.panel-default -->
-      </div><!-- /.col-xs-9.col-xl-10.no-float.layout-column -->
+      </div><!-- /.col-xs-9.col-xl-10.no-float.layout-column.no-left-padding -->
     </div><!-- /.row -->
   </div><!-- /.container-fluid.base-layout -->
-  
+
   <!-- HTML templates -->
   <script type="text/x-template" id="kwikemarks-directory-template">
     <tr data-directory-id="{directoryid}" data-directory-name="{directoryname}">
-      <td>{directorydisplayname}</td>
+      <td>{directorydisplayedname}</td>
     </tr>
   </script>
   <script type="text/x-template" id="kwikemarks-bookmark-template">
@@ -63,7 +63,7 @@
       <a href="{href}"><img src="{icon}" />{name}</a>
     </div>
   </script>
-  
+
   <script type="application/javascript" src="chrome://kwikemarks/content/js/jquery-2.1.3.min.js"></script>
   <script type="application/javascript" src="chrome://kwikemarks/content/js/bootstrap.min.js"></script>
   <script type="application/javascript" src="chrome://kwikemarks/content/js/bs-enhanced-table.js"></script>
@@ -71,7 +71,7 @@
   <script type="application/javascript" src="chrome://kwikemarks/content/js/time-display.js"></script>
   <script type="application/javascript" src="chrome://kwikemarks/content/js/bookmark-viewer.js"></script>
   <script type="application/javascript" src="chrome://kwikemarks/content/js/kwikemarks.js"></script>
-  
+
   <script type="application/javascript">
     $(document).on('ready', kwikemarks.init);
   </script>
