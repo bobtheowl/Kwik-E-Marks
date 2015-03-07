@@ -3,13 +3,13 @@
 <!DOCTYPE kwikemarks SYSTEM "chrome://kwikemarks/locale/kwikemarks.dtd">
 
 <vbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-  <setting type="color" pref="extensions.kwikemarks.bgcolor" title="&kwikemarks.bgcolortitle;">
-    &kwikemarks.bgcolordesc;
-  </setting>
-  <setting type="string" pref="extensions.kwikemarks.defaultdir" title="&kwikemarks.defdirtitle;">
-    &kwikemarks.defdirdesc;
-  </setting>
-  <setting type="string" pref="extensions.kwikemarks.lastdir" title="&kwikemarks.lastdirtitle;">
-    &kwikemarks.lastdirdesc;
-  </setting>
+    <setting type="color" pref="extensions.kwikemarks.bgcolor" title="&kwikemarks.bgcolortitle;">
+        &kwikemarks.bgcolordesc;
+    </setting>
+    <setting type="string" pref="extensions.kwikemarks.defaultdir" title="&kwikemarks.defdirtitle;">
+        &kwikemarks.defdirdesc;
+    </setting>
+    <setting type="string" pref="extensions.kwikemarks.lastdir" title="&kwikemarks.lastdirtitle;">
+        &kwikemarks.lastdirdesc;
+    </setting>
 </vbox>
