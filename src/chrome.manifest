@@ -1,10 +1,10 @@
 component	{78e53d02-2132-4dfb-94ad-17e4d1daaab4}	components/about-kwikemarks.js
-contract	@mozilla.org/network/protocol/about;1?what=kwikemarks	{78e53d02-2132-4dfb-94ad-17e4d1daaab4}
+contract	@mozilla.org/network/protocol/about;1?what=kwikemarks    {78e53d02-2132-4dfb-94ad-17e4d1daaab4}
 
-content		kwikemarks	chrome/content/
-content		kwikemarks	chrome/content			contentaccessible=true
-locale		kwikemarks	en-US					chrome/locale/en-US/
-skin		kwikemarks	classic/1.0				chrome/skin/kwikemarks/
+content     kwikemarks    chrome/content/
+content     kwikemarks    chrome/content/               contentaccessible=true
+locale      kwikemarks    en-US                         chrome/locale/en-US/
+skin        kwikemarks    classic/1.0                   chrome/skin/kwikemarks/
 
-overlay		chrome://browser/content/browser.xul			chrome://kwikemarks/content/toolbar.xul
-style		chrome://global/content/customizeToolbar.xul	chrome://kwikemarks/skin/kwikemarks-overlay.css
+overlay     chrome://browser/content/browser.xul          chrome://kwikemarks/content/toolbar.xul
+style       chrome://global/content/customizeToolbar.xul  chrome://kwikemarks/skin/kwikemarks-overlay.css
