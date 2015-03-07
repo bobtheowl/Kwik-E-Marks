@@ -1,3 +1,3 @@
-pref('extensions.kwikemarks.bgcolor', '#FFFFFF');
+pref('extensions.kwikemarks.bgcolor',    '#FFFFFF');
 pref('extensions.kwikemarks.defaultdir', '');
-pref('extensions.kwikemarks.lastdir', '');
+pref('extensions.kwikemarks.lastdir',    '');
